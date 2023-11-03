@@ -31,7 +31,8 @@ Cevap: Average case kapsamına giriyor.
 # Proje 2
 [16,21,11,8,12,22] -> Merge Sort
 
-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. Big-O gösterimini yazınız.
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. Big-O gösterimini yazınız. 
+Big-O: O(nlogn)
 
 1.               [16,21,11]                             [8,12,22]
                 /           \                         /           \
@@ -46,7 +47,7 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. Big-O gösteri
 6.                                [8,11,12,16,21,22]
 
 
-Big-O: O(nlogn)
+
 
 
 # Proje 3
