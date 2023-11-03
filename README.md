@@ -56,26 +56,20 @@ Big-O: O(nlogn)
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
 
-                             6
+                             7
                            /   \ 
-                          5     7
-                        /         \
-                       1           8
-                     /   \           \
-                    0     3           9
+                          5      8
+                        /  \       \
+                       1    6       9
+                     /   \           
+                    0     3          
                         /   \      
                        2     4    
 
-1. Root 6. Root'un solunda 5, sağında 7
-2. Sol tarafa geçtik. Root 5. solunda 
-Step 1:     7 > 6 için root'un sağında 7 bulunur.
-Step 2:     5 < 6 için root'un solunda 5 bulunur.
-Step 3:     1 < 6 için 1 root'un soluna eklenir.
-Step 4:     8 > 6 için 8 root'un sağına eklenir.
-Step 5:     3 < 6 için 3 root'un soluna eklenir.
-Step 6:     0 < 6 için 0 root'un soluna eklenir.
-Step 7:     9 > 6 için 9 root'un sağına eklenir.
-Step 8:     4 < 6 için 4 root'un soluna eklenir.                        
-Step 9:     2 < 6 için 2 root'un soluna eklenir.
+1. Root 7. Root'un solunda 5, sağında 8
+2. Sol tarafa geçtik. 1<5 sola, 6>5 sağa
+3. 0<1 sola, 3>1 sağa
+4. 2<3 sola, 4>3 sağa
+5. 9>8 olduğu için sağ tarafa eklenir.
 
 
